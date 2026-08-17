@@ -80,16 +80,28 @@
                 @apply bg-white/90 backdrop-blur-xl border border-white/50 shadow-2xl;
             }
         }
+        #tanggal_pesan {
+            -webkit-appearance: none;
+            appearance: none;
+        }
+
         #tanggal_pesan::-webkit-date-and-time-value {
             text-align: left;
+            height: 100%;
+            display: flex;
+            align-items: center;
         }
 
         #tanggal_pesan::-webkit-date-and-time-edit {
-            text-align: left;
+            display: flex;
+            align-items: center;
+            height: 100%;
         }
 
         #tanggal_pesan::-webkit-date-and-time-edit-fields-wrapper {
-            text-align: left;
+            display: flex;
+            align-items: center;
+            height: 100%;
         }
         
         .delay-100 { animation-delay: 100ms; }
