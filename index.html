@@ -358,7 +358,7 @@
                                 <option value="vario" class="text-text-heading">Honda Vario</option>
                                 <option value="scoopy" class="text-text-heading">Honda Scoopy</option>
                                 <option value="beat" class="text-text-heading">Honda Beat</option>
-                                <option value="mio" class="text-text-heading">Yamaha Mio</option>
+                                <option value="crf" class="text-text-heading">Honda CRF</option>
 
                             </select>
                             <div
@@ -666,6 +666,85 @@
                     </div>
                 </div>
 
+                <!-- Card 6: HONDA CRF -->
+                <div class="bg-[#F0F4FA] rounded-[22px] p-6 lg:p-8 flex flex-col shadow-sm border border-gray-100">
+                    <h3 class="text-h3 font-semibold text-black-50 mb-4">HONDA CRF</h3>
+
+                    <div class="flex flex-wrap gap-1.5 mb-4">
+                        <div
+                            class="flex items-center gap-1 bg-brand-primary/10 text-brand-primary px-2 py-1 rounded-full font-medium text-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 shrink-0" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            Motor Terbaru
+                        </div>
+                        <div
+                            class="flex items-center gap-1 bg-brand-primary/10 text-brand-primary px-2 py-1 rounded-full font-medium text-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 shrink-0" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            2 Helm
+                        </div>
+                        <div
+                            class="flex items-center gap-1 bg-brand-primary/10 text-brand-primary px-2 py-1 rounded-full font-medium text-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 shrink-0" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M5 4a3 3 0 016 0v1h1a2 2 0 012 2v8H6V7a2 2 0 012-2h1V4a1 1 0 10-2 0v1H5V4z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            2 Jas Hujan
+                        </div>
+                        <div
+                            class="flex items-center gap-1 bg-brand-primary/10 text-brand-primary px-2 py-1 rounded-full font-medium text-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 shrink-0" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M5 3a2 2 0 012-2h6a2 2 0 012 2v14a2 2 0 01-2 2H7a2 2 0 01-2-2V3zm2 0v14h6V3H7z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            Phone Holder
+                        </div>
+                        <div
+                            class="flex items-center gap-1 bg-brand-primary/10 text-brand-primary px-2 py-1 rounded-full font-medium text-xs">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 shrink-0" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M10 1a7 7 0 00-7 7c0 5.25 7 11 7 11s7-5.75 7-11a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1110 5a2.5 2.5 0 010 5.5z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            Antar Jemput
+                        </div>
+                    </div>
+
+                    <div class="w-full flex justify-center items-center py-2 mb-4 flex-grow">
+                        <img src="./assets/m-CRF.png" alt="Honda CRF"
+                            class="h-auto max-h-48 object-contain drop-shadow-xl transform hover:scale-105 transition-transform duration-500">
+                    </div>
+
+                    <div class="w-full h-px bg-gray-300 mb-4 mt-auto"></div>
+
+                    <div class="flex justify-between items-end">
+                        <div>
+                            <p class="text-text-body font-medium mb-1">Harga sewa / 24 jam</p>
+                            <div class="flex flex-col">
+                                <span class="text-sm text-gray-400 line-through font-medium leading-none mb-1">Rp
+                                    250.000</span>
+                                <span class="text-h3 font-bold text-brand-primary leading-none">Rp 180.000</span>
+                            </div>
+                        </div>
+                        <button onclick="sewaMotor('crf')"
+                            class="bg-brand-primary text-white font-bold py-2.5 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-sm text-body">
+                            Sewa
+                        </button>
+                    </div>
+                </div>
+
 
                 <!-- Card 3: HONDA VARIO -->
                 <div class="bg-[#F0F4FA] rounded-[22px] p-6 lg:p-8 flex flex-col shadow-sm border border-gray-100">
@@ -907,86 +986,6 @@
                     </div>
                 </div>
 
-
-                <!-- Card 6: YAMAHA MIO -->
-                <div class="bg-[#F0F4FA] rounded-[22px] p-6 lg:p-8 flex flex-col shadow-sm border border-gray-100">
-                    <h3 class="text-h3 font-semibold text-black-50 mb-4">YAMAHA MIO</h3>
-
-                    <div class="flex flex-wrap gap-1.5 mb-4">
-                        <div
-                            class="flex items-center gap-1 bg-brand-primary/10 text-brand-primary px-2 py-1 rounded-full font-medium text-xs">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 shrink-0" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            Motor Terbaru
-                        </div>
-                        <div
-                            class="flex items-center gap-1 bg-brand-primary/10 text-brand-primary px-2 py-1 rounded-full font-medium text-xs">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 shrink-0" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            2 Helm
-                        </div>
-                        <div
-                            class="flex items-center gap-1 bg-brand-primary/10 text-brand-primary px-2 py-1 rounded-full font-medium text-xs">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 shrink-0" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M5 4a3 3 0 016 0v1h1a2 2 0 012 2v8H6V7a2 2 0 012-2h1V4a1 1 0 10-2 0v1H5V4z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            2 Jas Hujan
-                        </div>
-                        <div
-                            class="flex items-center gap-1 bg-brand-primary/10 text-brand-primary px-2 py-1 rounded-full font-medium text-xs">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 shrink-0" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M5 3a2 2 0 012-2h6a2 2 0 012 2v14a2 2 0 01-2 2H7a2 2 0 01-2-2V3zm2 0v14h6V3H7z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            Phone Holder
-                        </div>
-                        <div
-                            class="flex items-center gap-1 bg-brand-primary/10 text-brand-primary px-2 py-1 rounded-full font-medium text-xs">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 shrink-0" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M10 1a7 7 0 00-7 7c0 5.25 7 11 7 11s7-5.75 7-11a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1110 5a2.5 2.5 0 010 5.5z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                            Antar Jemput
-                        </div>
-                    </div>
-
-                    <div class="w-full flex justify-center items-center py-2 mb-4 flex-grow">
-                        <img src="./assets/m-mio.png" alt="Yamaha Mio"
-                            class="h-auto max-h-48 object-contain drop-shadow-xl transform hover:scale-105 transition-transform duration-500">
-                    </div>
-
-                    <div class="w-full h-px bg-gray-300 mb-4 mt-auto"></div>
-
-                    <div class="flex justify-between items-end">
-                        <div>
-                            <p class="text-text-body font-medium mb-1">Harga sewa / 24 jam</p>
-                            <div class="flex flex-col">
-                                <span class="text-sm text-gray-400 line-through font-medium leading-none mb-1">Rp
-                                    100.000</span>
-                                <span class="text-h3 font-bold text-brand-primary leading-none">Rp 75.000</span>
-                            </div>
-                        </div>
-                        <button onclick="sewaMotor('mio')"
-                            class="bg-brand-primary text-white font-bold py-2.5 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-sm text-body">
-                            Sewa
-                        </button>
-                    </div>
-                </div>
-
             </div>
 
         </div>
@@ -1059,23 +1058,6 @@
                         </div>
                     </div>
 
-                    <!-- Card 3 -->
-                    <div class="w-[360px] bg-white rounded-[24px] p-8 shadow-sm flex flex-col flex-shrink-0">
-                        <div class="flex gap-1 text-yellow-400 mb-6 text-xl">★★★☆☆</div>
-                        <p class="text-text-body leading-relaxed mb-8 text-body">
-                            "Sangat membantu untuk mobilitas keliling kota dan cari kuliner. Harga sewa bersahabat dan
-                            admin WhatsApp fast response."
-                        </p>
-                        <div class="flex items-center gap-4 mt-auto">
-                            <img src="https://ui-avatars.com/api/?name=Rizky+Pratama&background=random&color=fff"
-                                class="w-12 h-12 rounded-full object-cover">
-                            <div>
-                                <h4 class="text-black font-semibold">Rizky Pratama</h4>
-                                <p class="text-xs text-gray-500 uppercase tracking-wider mt-1">Business Trip</p>
-                            </div>
-                        </div>
-                    </div>
-
                     <!-- Card 4 -->
                     <div class="w-[360px] bg-white rounded-[24px] p-8 shadow-sm flex flex-col flex-shrink-0">
                         <div class="flex gap-1 text-yellow-400 mb-6 text-xl">★★★★★</div>
@@ -1109,6 +1091,23 @@
                             <div>
                                 <h4 class="text-black font-semibold">Budi Santoso</h4>
                                 <p class="text-xs text-gray-500 uppercase tracking-wider mt-1">Wisatawan Kawah Ijen</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="w-[360px] bg-white rounded-[24px] p-8 shadow-sm flex flex-col flex-shrink-0">
+                        <div class="flex gap-1 text-yellow-400 mb-6 text-xl">★★★☆☆</div>
+                        <p class="text-text-body leading-relaxed mb-8 text-body">
+                            "Sangat membantu untuk mobilitas keliling kota dan cari kuliner. Harga sewa bersahabat dan
+                            admin WhatsApp fast response."
+                        </p>
+                        <div class="flex items-center gap-4 mt-auto">
+                            <img src="https://ui-avatars.com/api/?name=Rizky+Pratama&background=random&color=fff"
+                                class="w-12 h-12 rounded-full object-cover">
+                            <div>
+                                <h4 class="text-black font-semibold">Rizky Pratama</h4>
+                                <p class="text-xs text-gray-500 uppercase tracking-wider mt-1">Business Trip</p>
                             </div>
                         </div>
                     </div>
@@ -1350,6 +1349,28 @@
                     </div>
                 </div>
 
+                <!-- FAQ Item: Harga High Season -->
+                <div
+                    class="bg-white rounded-[20px] shadow-sm border border-gray-100 overflow-hidden transition-all duration-300">
+                    <button
+                        class="w-full px-8 py-6 text-left flex justify-between items-center focus:outline-none faq-toggle">
+                        <span class="text-xl font-medium text-black">Apakah harga sewa saat high season berbeda?</span>
+                        <svg class="w-6 h-6 text-black transform transition-transform duration-300 faq-icon" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </button>
+
+                    <div class="px-8 pb-6 hidden faq-content">
+                        <p class="text-text-body leading-relaxed text-body">
+                            Ya. Pada periode <span class="font-semibold text-black">high season</span>, harga sewa dapat
+                            mengalami kenaikan sesuai dengan <span class="font-semibold text-black">ketentuan
+                                perusahaan</span>.
+                        </p>
+                    </div>
+                </div>
+
                 <!-- FAQ Item 8 -->
                 <div
                     class="bg-white rounded-[20px] shadow-sm border border-gray-100 overflow-hidden transition-all duration-300">
@@ -1503,8 +1524,7 @@
 
                             <div class="mt-4 mb-6">
                                 <span
-                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">Mulai
-                                    dari</span>
+                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">HARGA</span>
                                 <span class="text-3xl font-black text-black tracking-tight">Rp250<span
                                         class="text-xl font-bold text-gray-400">.000</span></span><span
                                     class="text-gray-500 font-medium"> / pax</span>
@@ -1570,8 +1590,7 @@
 
                             <div class="mt-4 mb-6">
                                 <span
-                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">Mulai
-                                    dari</span>
+                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">HARGA</span>
                                 <span class="text-3xl font-black text-black tracking-tight">Rp275<span
                                         class="text-xl font-bold text-gray-400">.000</span></span><span
                                     class="text-gray-500 font-medium"> / pax</span>
@@ -1595,7 +1614,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                             d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span class="text-sm text-gray-600 font-medium">Minimal 1 pax jalan</span>
+                                    <span class="text-sm text-gray-600 font-medium">Minimal 2 pax jalan</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" fill="none"
@@ -1637,8 +1656,7 @@
 
                             <div class="mt-4 mb-6">
                                 <span
-                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">Mulai
-                                    dari</span>
+                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">HARGA</span>
                                 <span class="text-3xl font-black text-black tracking-tight">Rp275<span
                                         class="text-xl font-bold text-gray-400">.000</span></span><span
                                     class="text-gray-500 font-medium"> / pax</span>
@@ -1662,7 +1680,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                             d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span class="text-sm text-gray-600 font-medium">Minimal 1 pax jalan</span>
+                                    <span class="text-sm text-gray-600 font-medium">Minimal 2 pax jalan</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" fill="none"
@@ -1704,8 +1722,7 @@
 
                             <div class="mt-4 mb-6">
                                 <span
-                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">Mulai
-                                    dari</span>
+                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">HARGA</span>
                                 <span class="text-3xl font-black text-black tracking-tight">Rp275<span
                                         class="text-xl font-bold text-gray-400">.000</span></span><span
                                     class="text-gray-500 font-medium"> / pax</span>
@@ -1729,7 +1746,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                             d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span class="text-sm text-gray-600 font-medium">Minimal 1 pax jalan</span>
+                                    <span class="text-sm text-gray-600 font-medium">Minimal 2 pax jalan</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" fill="none"
@@ -1767,13 +1784,12 @@
                             </div>
                             <h4
                                 class="text-xl font-bold text-black mb-2 pr-4 leading-tight group-hover:text-brand-primary transition-colors">
-                                Green Island & Pulau Merah</h4>
+                                Djawatan, Green Island, dan Pulau Merah</h4>
 
                             <div class="mt-4 mb-6">
                                 <span
-                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">Mulai
-                                    dari</span>
-                                <span class="text-3xl font-black text-black tracking-tight">Rp450<span
+                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">HARGA</span>
+                                <span class="text-3xl font-black text-black tracking-tight">Rp540<span
                                         class="text-xl font-bold text-gray-400">.000</span></span><span
                                     class="text-gray-500 font-medium"> / pax</span>
                             </div>
@@ -1796,7 +1812,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                             d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span class="text-sm text-gray-600 font-medium">Minimal 1 pax jalan</span>
+                                    <span class="text-sm text-gray-600 font-medium">Minimal 2 pax jalan</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" fill="none"
@@ -1838,8 +1854,7 @@
 
                             <div class="mt-4 mb-6">
                                 <span
-                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">Mulai
-                                    dari</span>
+                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">HARGA</span>
                                 <span class="text-3xl font-black text-black tracking-tight">Rp425<span
                                         class="text-xl font-bold text-gray-400">.000</span></span><span
                                     class="text-gray-500 font-medium"> / pax</span>
@@ -1863,7 +1878,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                             d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span class="text-sm text-gray-600 font-medium">Minimal 1 pax jalan</span>
+                                    <span class="text-sm text-gray-600 font-medium">Minimal 2 pax jalan</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" fill="none"
@@ -1915,8 +1930,7 @@
 
                             <div class="mt-4 mb-6">
                                 <span
-                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">Mulai
-                                    dari</span>
+                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">HARGA</span>
                                 <span class="text-3xl font-black text-black tracking-tight">Rp500<span
                                         class="text-xl font-bold text-gray-400">.000</span></span><span
                                     class="text-gray-500 font-medium"> / pax</span>
@@ -1940,7 +1954,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                             d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span class="text-sm text-gray-600 font-medium">Minimal 1 pax jalan</span>
+                                    <span class="text-sm text-gray-600 font-medium">Minimal 2 pax jalan</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" fill="none"
@@ -1982,8 +1996,7 @@
 
                             <div class="mt-4 mb-6">
                                 <span
-                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">Mulai
-                                    dari</span>
+                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">HARGA</span>
                                 <span class="text-3xl font-black text-black tracking-tight">Rp500<span
                                         class="text-xl font-bold text-gray-400">.000</span></span><span
                                     class="text-gray-500 font-medium"> / pax</span>
@@ -2007,7 +2020,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                             d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span class="text-sm text-gray-600 font-medium">Minimal 1 pax jalan</span>
+                                    <span class="text-sm text-gray-600 font-medium">Minimal 2 pax jalan</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" fill="none"
@@ -2049,8 +2062,7 @@
 
                             <div class="mt-4 mb-6">
                                 <span
-                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">Mulai
-                                    dari</span>
+                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">HARGA</span>
                                 <span class="text-3xl font-black text-black tracking-tight">Rp675<span
                                         class="text-xl font-bold text-gray-400">.000</span></span><span
                                     class="text-gray-500 font-medium"> / pax</span>
@@ -2074,7 +2086,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                             d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span class="text-sm text-gray-600 font-medium">Minimal 1 pax jalan</span>
+                                    <span class="text-sm text-gray-600 font-medium">Minimal 2 pax jalan</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" fill="none"
@@ -2116,8 +2128,7 @@
 
                             <div class="mt-4 mb-6">
                                 <span
-                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">Mulai
-                                    dari</span>
+                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">HARGA</span>
                                 <span class="text-3xl font-black text-black tracking-tight">Rp700<span
                                         class="text-xl font-bold text-gray-400">.000</span></span><span
                                     class="text-gray-500 font-medium"> / pax</span>
@@ -2141,7 +2152,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                             d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span class="text-sm text-gray-600 font-medium">Minimal 1 pax jalan</span>
+                                    <span class="text-sm text-gray-600 font-medium">Minimal 2 pax jalan</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" fill="none"
@@ -2183,8 +2194,7 @@
 
                             <div class="mt-4 mb-6">
                                 <span
-                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">Mulai
-                                    dari</span>
+                                    class="text-xs text-gray-500 block mb-1 font-medium uppercase tracking-widest">HARGA</span>
                                 <span class="text-3xl font-black text-black tracking-tight">Rp450<span
                                         class="text-xl font-bold text-gray-400">.000</span></span><span
                                     class="text-gray-500 font-medium"> / pax</span>
@@ -2208,7 +2218,7 @@
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                             d="M5 13l4 4L19 7" />
                                     </svg>
-                                    <span class="text-sm text-gray-600 font-medium">Minimal 1 pax jalan</span>
+                                    <span class="text-sm text-gray-600 font-medium">Minimal 2 pax jalan</span>
                                 </li>
                                 <li class="flex items-start gap-3">
                                     <svg class="w-5 h-5 text-brand-primary flex-shrink-0 mt-0.5" fill="none"
